@@ -1,0 +1,285 @@
+* {
+margin: 0 0 0 0;
+padding: 0 0 0 0
+}
+
+body {
+max-width: 1200px;
+margin: 0 auto;
+color: #E6E0CF;
+background: #202020;
+font-family: arial, verdana,  tahoma , serif;
+font-style: normal;
+font-weight: normal
+}
+
+img , form input, form textarea {
+max-width: 100%;
+
+}
+
+header {
+width: 100%;
+background: #804080;
+background-image : URL(images/bkg-ch.jpg);
+float: left;
+
+}
+
+header img {
+float: left;
+padding: 2% 2%;
+box-shadow:none
+}
+
+div.main-photo img {
+display: block;
+margin: 0 auto;
+z-index:-1;
+padding: 0 0;
+background-image : URL(images/bkg-ch.jpg); 
+}
+
+
+nav {
+width: 95%;
+background-image : URL(images/bkg-ch.jpg);
+padding: 0 2.5%;
+float: left
+}
+
+div.main-photo {
+width:100%;
+background: #807659;
+float: left;
+border-top: solid #997300 2px;
+border-bottom: solid #997300 2px
+}
+
+div.free-video {
+width:100%;
+background: #807659;
+float: left;
+border-top: solid #997300 2px;
+border-bottom: solid #997300 2px;
+padding: 5%  0
+}
+
+div.video {
+width: 80%;
+float: left;
+padding: 0 10%
+}
+
+
+div.main-photo-aboutme {
+width:68%;
+background: #807659;
+float: left;
+border-top: solid #997300 2px;
+border-bottom: solid #997300 2px;
+border-radius: 20px 20px 20px 20
+}
+
+div.main-photo-rightaboutme {
+width:30%;
+background: #807659;
+float: right;
+border-top: solid #997300 2px;
+border-bottom: solid #997300 2px;
+padding: 0px 10px
+}
+
+div.content-background {
+width:100%;
+background: #807659;
+float: left;
+}
+ div.introduction {
+width: 60%;
+float: left;
+padding: 0 20%
+}
+
+div.left {
+width: 18.75%;
+padding: 0 2.5% 0 5%;
+float: left;
+}
+
+div.inner-left {
+width: 18.75%;
+padding: 0 2.5%;
+float: left;
+}
+
+div.inner-right {
+width: 18.75%;
+padding: 0 2.5%;
+float: left;
+}
+
+div.right {
+width: 18.75%;
+padding: 0 5% 0 2.5%;
+float: left;
+}
+
+div.single-column {
+width: 60%;
+background: #807659;
+padding: 0 20%;
+float: left;
+}
+
+div.single-page {
+width: 80%;
+background: #807659;
+padding: 0 10%;
+float: right;
+margin: auto;
+}
+
+footer {
+width: 100%;
+background: #2e2e2e;
+border-top: solid #030303 2px;
+float: left
+}
+
+h1 {
+font-size : 24px;
+text-align : center;
+color : #ffffef;
+padding: 2% 0;
+text-shadow: 1px 2px 0px #000000}
+
+
+h2 {
+font-size : 22px;
+text-align :center;
+color : #CCBD8F;
+padding: 2% 0;
+text-shadow: 1px 2px 0px #000000 }
+
+hr {
+color : #CCBD8F;
+background-color : #CCBD8F;
+height: 1px;
+width: 60%;
+margin: 0 auto
+}
+
+p {
+font-size : 18px;
+text-align : left;
+text-indent : 16px ;
+padding: 1% 0;
+text-shadow: 1px 2px 0px #000000 }
+
+p a {
+color: #ffffef
+}
+
+p a:visited {
+color: #CCBD8F   !important;
+}
+
+div.left img, div.inner-left img, div.inner-right img, div.right img, div.single-column img {
+margin: .5% 2%;
+border: solid #000000 1px;
+box-shadow: 5px 5px 10px #2e2e2e; 
+-webkit-box-shadow: 5px 5px 10px #2e2e2e}
+
+
+
+
+footer p {
+font-size : 16px;
+text-align : center;
+padding: .5% 0 0 0} 
+
+footer p {
+font-size : 16px;
+text-align : center;
+padding: 0 0 .5% 0} 
+
+footer p a {
+color: #efefef}
+
+form {
+font-size : 18px;
+text-align : left;
+text-indent : 0px ;
+padding: 2% 0 ;
+line-height: 200%;
+text-shadow: 1px 2px 0px #000000}
+
+/*  horizontal navbar  */
+ul.hnavbar{
+	list-style:none;
+                font-size: 16px;
+	padding-bottom: 1%;
+                /* Clear floats */
+	float:left;
+	
+	position:relative;
+	z-index:5;
+              background-image : URL(images/bkg-ch.jpg);
+}
+
+
+ul.hnavbar li{
+	float:left;
+	margin-right:10px;
+	position:relative;
+}
+ul.hnavbar a{
+	display:block;
+	padding: 5px;
+	color:#E6E0CF;
+	background:#807659;
+	text-decoration:none;
+text-shadow: 1px 1px 0px #000000;
+box-shadow: 2px 2px 0px #000000;
+-webkit-box-shadow: 2px 2px 0px #000000
+}
+
+ul.hnavbar a:hover{
+	color:#CCBD8F;
+	background:#A0522D;
+	text-decoration:none;
+}
+
+/*--- DROPDOWN ---*/
+ul.hnavbar ul{
+	background: transparent; 
+	list-style:none;
+	position:absolute;
+	left:-9999px; 
+}
+ul.hnavbar ul li{
+	padding-top: 0px; 
+	float:none;
+}
+ul.hnavbar ul a{
+	white-space:nowrap; 
+}
+ul.hnavbar li:hover ul{
+	left:0; 
+}
+ul.hnavbar li:hover a{ 
+	background:#997300;
+	text-decoration:none;
+}
+ul.hnavbar li:hover ul a{ 
+	text-decoration:none;
+}
+ul.hnavbar li:hover ul li a:hover{
+	background:#202020;
+}
+
+
+
+
+
